@@ -1,0 +1,90 @@
+body{
+    font-family: Helvetica,Arial;
+    background-color: #F5F5F5;
+}
+.container{
+    padding: 40px 20px;
+}
+header#main{
+    text-align: center;
+}
+header#main p{
+    font-family: 'Satisfy';
+    font-size: 30px;
+    color: #393f4a;
+}
+header#main .main-nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+header#main .main-nav li{
+    display: inline-block;
+    margin: 0 20px;
+}
+header#main .main-nav li a {
+    color: 	#FF1493;
+    font-size: 78%;
+    font-weight: 600;
+}
+header#main .main-nav li a:hover{
+    color: #393f4a;
+}
+header#main .main-nav .active a{
+    color: #fff;
+    background-color: #FF1493;
+    padding: 9px;
+    border-radius: 5px;
+}
+.item{
+    text-align: center;
+    position: relative;
+}
+.item img{
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.icon{
+    text-align: center;
+}
+.icon img{
+    margin: 0 10px;
+}
+.icon p{
+    font-size: 60%;
+}
+.info, .contact{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+.info img, .contact img{
+    margin-bottom: 60px;
+}
+.info h4, .contact h4{
+    color: #FF1493;
+    font-family: 'Dancing Script';
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.info p{
+    line-height: 30px;
+}
+.contact form input{
+    margin-bottom: 10px;
+}
+.contact .button{
+    padding: 5px;
+    border-radius: 3px;
+    float: right;
+    margin-top: 10px;
+    
+}
+.contact .button-primary{
+    background-color:  #FF1493;
+}
+
+
+
+
